@@ -1,0 +1,19 @@
+server:
+  port: 7575
+  display-name: Microservice Group Notification Management
+
+spring:
+  jpa:
+     database: POSTGRESQL
+     show-sql: true
+     hibernate:
+       ddl-auto: create
+  datasource:
+     platform: postgres
+     driverClassName: org.postgresql.Driver
+     url: jdbc:postgresql://localhost:5432/iparcel_app
+     username: postgres
+     password: postgres
+
+  
+
